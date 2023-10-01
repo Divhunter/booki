@@ -1,0 +1,48 @@
+/*********************************************** media queries ***********************************************/
+/************************* New rules if the screen is at more 1351px and last 1366px *************************/
+@media screen and (min-width: 1351px) and (max-width: 1366px){
+
+    /************************************** catalog container *************************************/
+    /**********************************************************************************************/
+    .catalog-title{
+        left: 25px;
+    }
+
+    /************************************** lodging container *************************************/
+    /**********************************************************************************************/
+    .lodging-container{
+        max-width: 822px;
+    }
+    .lodging{
+        margin-left: 20px;
+    }
+    .learn-more-link, 
+    .learn-more-link:hover{
+        left: 25px;
+    }
+
+    /*************************************** most famous ******************************************/
+    /**********************************************************************************************/
+    .most-famous-container{
+        width: 392px;
+    }
+    .star-most-famous{
+        margin-left: 110px;
+    }
+    .most-famous{
+        margin-left: 24px;
+    }
+    .activities-box{
+        margin-right: 40px;
+        width: 282px;
+    }
+    .all-wrap{
+        width: 282px;
+    }
+    .img-wrap{
+        width: 282px;
+    }
+    .box-top{
+        margin-top: 0;
+    }
+}

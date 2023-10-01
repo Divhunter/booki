@@ -1,0 +1,40 @@
+a, a:hover{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+a:hover, a:active{
+    letter-spacing: .5px;
+    color: #0065fc;
+}
+h1,
+.title,
+.catalog-title,
+.activities-title{
+    font-size: 21.5px;
+    letter-spacing: .2px;
+}
+h2{
+    font-size: 16px;
+    color: black;
+}
+h3{
+    font-size: 14px;
+    font-weight: normal;
+}
+h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+p{
+    font-size: 15.5px;
+}
+label{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: .1px;
+}
+ul{
+	list-style-type: none;
+    padding-left: 0;
+}

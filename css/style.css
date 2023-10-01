@@ -1,0 +1,562 @@
+/**********************************************************************************************/
+/******************************************** header ******************************************/
+/**********************************************************************************************/
+.navbar{
+    position: relative;
+    height: 114px;
+    background-color: white;
+}
+.logo-big{
+    position: absolute;
+    top: 44px;
+    left: 56px;
+    width: 95px;
+    height: auto;
+}
+.menu{ 
+    position: absolute;
+    margin: 0;
+    top: 0;
+    right: 0;
+    padding: 0;
+    width: 348px;
+    height: 114px;
+}
+.link{
+    position: absolute;
+    width: 162px;
+    height: 114px;
+}
+.link-one{
+    left: 0;
+    border-top: solid 2px #0065fc;
+}
+.link-two{
+    right: 0;
+}
+.header-link-text-one{
+    position: absolute;
+    margin-left: 28.5px;
+    top: 47px;
+    letter-spacing: .5px;
+    color: #0065fc;
+}
+.header-link-text-two{
+    position: absolute;
+    margin-left: 23.4px;
+    top: 49px;
+    color: black;
+    font-weight: 400;
+}
+
+/**********************************************************************************************/
+/********************************************* main *******************************************/
+/**********************************************************************************************/
+main{
+    height: 1553px;
+    background-color: white;
+}
+
+/************************************** search container *************************************/
+/**********************************************************************************************/
+.search-container{
+    position: absolute;
+    height: 314px;
+    max-width: 1440px;
+    width: 100%;
+    background-color: white;
+}
+.title, 
+.subtitle{
+    position: relative;
+    left: 54px;
+    margin-right: 54px;
+}
+.subtitle{
+    top: -7px;
+}
+.search-form{
+    position: relative;
+    top: -3px;
+    left: 54px;
+    width: 420px;
+    height: 50px;
+}
+.search-submit{
+    top: 0;
+    float: right;
+    width: 134px;
+    height: 50px;
+    border-radius: 0 14px 14px 0;
+    border: none;
+    background-color: #0065fc;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.icon-location{
+    text-align: center;
+    padding-top: 15px;
+    top: 0;
+    float: left;
+    width: 53px;
+    height: 50px;
+    border-radius: 14px 0 0 14px;
+    background-color: #F2F2F2;
+    color: black;
+    font-size: 18px;
+}
+.icon-search{
+    display: none;
+}
+.search-input{
+    position: absolute;
+    border: none;
+    width: 233px;
+    height: 50px;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .1px;
+    border-top: solid .5px  #F2F2F2;
+    border-bottom: solid .5px  #F2F2F2;
+}
+.search-filters{
+    position: relative;
+    top: 28px;
+    left: 54px;
+    padding-left: 8px;
+    width: 938px;
+    height: 50px;
+}
+.lab-filters{
+    position: relative;
+        top: 14px;
+}
+.filters{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 94px;
+    margin-top: 0;
+    width: 845px;
+    height: 50px;
+}
+.filter{
+    position: relative;
+    height: 50px;
+    border-radius: 25px;
+    border: solid 2px rgb(217, 217, 217);
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.filter:hover, 
+.filter:focus,
+.filter:active{
+    background-color: #f4f8fd;
+}
+.eco-filter{
+    width: 195px;
+}
+.fam-filter{
+    width: 152px;
+}
+.rom-filter{
+    width: 184px;
+}
+.ani-filter{
+    width: 242px;
+}
+.icon-filter{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    margin-top: -2px;
+    margin-left: -2px;
+    margin-right: 7px;
+    border-radius: 50%;
+    background-color: #DEEBFF;
+    color: #0065fc;
+    z-index: 2;
+}
+.icon-eco{
+    padding-top: 18px;
+    font-size: 16px;
+}
+.icon-fam{
+    padding-top: 15px;
+    padding-right: 2px;
+    font-size: 20px;
+}
+.icon-rom{
+    padding-top: 16px;
+    font-size: 20px;
+}
+.icon-ani{
+    padding-top: 15px;
+    font-size: 19px;
+}
+.icon-info{
+    position: relative;
+    top: 63px;
+    left: 60px;
+    padding-top: 3px;
+    text-align: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: solid .5px rgb(217, 217, 217);
+    color: #0065fc;
+    font-size: 11px;
+    font-weight: bold;
+}
+.info{
+    position: relative;
+    top: 28px;
+    left: 94px;
+    font-size: 16px;
+}
+
+/************************************** catalog container *************************************/
+/**********************************************************************************************/
+.catalog-container{
+    position: relative;
+    top: 314px;
+    height: 1239px;
+    background-color: white;
+}
+.lodging,
+.most-famous{
+    position: relative;
+    border-radius: 16px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+.wrap{
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    background-color: transparent;
+    overflow: hidden;
+    cursor: pointer;
+}
+.lodging:hover, 
+.most-famous:hover, 
+.wrap:hover{
+    background-color: #DEEBFF;
+    letter-spacing: 0;
+}
+.star-container{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    font-size: 12px;
+    letter-spacing: .1px;
+}
+.star-blue{
+    color: #0065fc;
+}
+.star-gray{
+    color: rgb(217, 217, 217);
+}
+
+/************************************** lodging container *************************************/
+/**********************************************************************************************/
+.lodging-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 27px;
+    padding-left: 4px;
+    border-radius: 20px;
+    position: absolute;
+    left: 54px;
+    width: 875px;
+    height: 626px;
+    background-color:  #F2F2F2;
+}
+.catalog-title{
+    position: absolute;
+    left: 36px;
+}
+.lodging{
+    top: 64px;
+    margin-left: 32px;
+    margin-bottom: -90px;
+    width: 245px;
+    height: 198px;
+}
+.lodging-wrap{
+    width: 237px;
+    height: 114px;
+    border-radius: 16px 16px 0 0;
+}
+.img-lodging{
+    position: absolute;
+    left: -4px;
+    width: 244px;
+    height: auto;
+}
+.img-auberges-la-cannebiere,
+.img-hotel-du-port,
+.img-hotel-les-mouettes{
+    top: -24px;
+}
+.img-hotel-de-la-mer{
+    top: -57px;
+}
+.img-auberge-le-panier{
+    top: -11px;
+}
+.img-hotel-chez-amina{
+    top: -125px;
+}
+.lodging-subtitle{
+    position: absolute;
+    top: 114px;
+    left: 15px; 
+}
+.lodging-info{
+    position: absolute;
+    top: 137px;
+    left: 15px;
+    color: black;
+}
+.star-lodging{
+    top: 163px;
+    left: 15px;
+}
+.learn-more-link, 
+.learn-more-link:hover{
+    position: relative;
+    top: 74px;
+    left: 35px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0;
+    cursor: auto;
+}
+
+/*************************************** most famous ******************************************/
+/**********************************************************************************************/
+.most-famous-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 27px;
+    border-radius: 20px;
+    position: absolute;
+    right: 50px;
+    width: 420px;
+    height: 626px;
+    background-color:  #F2F2F2;
+}
+.star-most-famous{
+    right: 20px;
+}
+.most-famous{
+    top: 64px;
+    margin-left: 37px;
+    margin-bottom: 33px;
+    width: 343px;
+    height: 144px;
+}
+.most-famous-subtitle{
+    position: absolute;
+    top: 5px;
+    left: 152px;
+}
+.most-famous-info{
+    position: absolute;
+    top: 48px;
+    left: 152px;
+    color: black;
+}
+.star-famous{
+    top: 108px;
+    left: 152px;
+}
+.most-famous-wrap{
+    width: 127px;
+    height: 134px;
+    border-radius: 16px 0 0 16px;
+}
+.img-most-famous{
+    position: absolute;
+    height: auto;
+}
+.img-hotel-le-soleil-du-matin{
+    top: -4px;
+    left: -45px;
+    width: 220px;
+}
+.img-au-coeur-de-l-eau{
+    top: -8px;
+    left: -42px;
+    width: 210px;
+}
+.img-hotel-tout-bleu-et-blanc{
+    top: -30px;
+    left: -2px;
+    width: 134px;
+}
+
+/*************************************** activities *******************************************/
+/**********************************************************************************************/
+.activities-contenair{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 625px;
+    padding-left: 49px;
+    max-width: 1440px;
+    width: 100%;
+    height: 614px;
+    background-color: white;
+}
+.activities-title{
+    position: absolute;
+    margin-top: 60px;
+}
+.activities-box{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    left: -10px;
+    top: 104px;
+    margin-right: 41px;
+    width: 304px;
+    height: 446px;
+}
+.all-wrap{
+    position: relative;
+    width: 304px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+.vieux-port-wrap,
+.parc-national-des-calanques-wrap{
+    height: 446px;
+}
+.fort-de-pomegues-wrap{
+    height: 237px;
+}
+.iles-du-frioul-wrap{
+    margin-top: 41px;
+    height: 165px;
+}
+.notre-dame-de-la-garde-wrap{
+    height: 197px;
+}
+.parc-longchamp-wrap{
+    margin-top: 41px;
+    height: 209px;
+}
+.img-wrap{
+    position: absolute;
+    width: 304px;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+}
+.img-vieux-port-wrap,
+.img-parc-national-des-calanques-wrap{
+    height: 390px;
+}
+.img-fort-de-pomegues-wrap{
+    height: 181px;
+}
+.img-iles-du-frioul-wrap{
+    height: 110px;
+}
+.img-notre-dame-de-la-garde-wrap{
+    height: 140px;
+}
+.img-parc-longchamp-wrap{
+    height: 151px;
+}
+.place-title{
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+}
+.img-vieux-port{
+    position: absolute;
+    left: -182px;
+    width: auto;
+    height: 445px;
+}
+.img-activities-w-595{
+    display: none;
+}
+.img-fort-de-pomegues{
+    position: absolute;
+    top: -110px;
+    width: 304px;
+    height: auto;
+}
+.img-iles-du-frioul{
+    position: absolute;
+    top: -18px;
+    width: 304px;
+    height: auto;
+}
+.img-parc-national-des-calanques{
+    position: absolute;
+    width: auto;
+    height: 445px;
+    left: -184px;
+}
+.img-notre-dame-de-la-garde{
+    position: absolute;
+    width: 304px;
+    height: auto;
+    top: -2px;
+}
+.img-parc-longchamp{
+    position: absolute;
+    width: 304px;
+    height: auto;
+    top: -12px;
+}
+
+/**********************************************************************************************/
+/******************************************** footer ******************************************/
+/**********************************************************************************************/
+.footer{
+    display: flex;
+    flex-direction: row;
+    height: 219px;
+}
+.about{
+    position: relative;
+    top: -16px;
+    width: 480px;
+    height: 219px;
+    background-color: #F2F2F2;
+}
+.about-one{
+    padding-left: 50px;
+}
+.about-two{
+    padding-left: 22px;
+}
+.about-title{
+    position: absolute;
+    top: 22px;
+}
+.about-text,
+.about-text:hover{
+    position: relative;
+    top: 80px;
+    font-size: 15.5px;
+    color: black;
+    letter-spacing: .1px;
+    line-height: 2;
+    text-decoration: none;
+}

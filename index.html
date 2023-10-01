@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="type" content="text/html">
+		<meta name="description" content="Booki site web, site web Responsive HTML5">
+		<meta name="author" content="Aaron DIVIOKA">
+		<meta name="title" content="Booki | integration de maquette | nouveau site web">
+		<meta name="url" content="https://booki.fr/">
+
+		<!-- Mobile Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Web Fonts -->
+		<link href='http://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap' 
+        rel='stylesheet' type='text/css'>
+        
+        <!-- Font Awsone -->
+        <script src="https://kit.fontawesome.com/abea2822cd.js" crossorigin="anonymous"></script>
+
+		<!-- Booki core CSS file -->
+        <link href="css/fontStyle.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/media1351.css" rel="stylesheet">
+        <link href="css/media992.css" rel="stylesheet">
+        <link href="css/media768.css" rel="stylesheet">
+        <link href="css/mobile.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/normalize.css" rel="stylesheet">
+		<title>Booki | integration de maquette | nouveau site web</title>
+
+	</head>
+
+	<body>
+
+        <!-- fram start -->
+		<!-- ========== -->
+        <div class="fram">
+
+            <!-- header start -->
+		    <!-- ============ --> 
+            <header>
+
+                <!-- navigation start -->
+				<!-- ================ -->
+                <nav class="navbar container">
+
+                    <!-- header left start -->
+					<!-- ================= -->
+                    <img class="logo-big" src="images/logo/Booki@3x.png" alt="logo de la société Booki de couleur bleu">
+        
+                    <!-- header right start -->
+					<!-- ================== -->
+                    <ul id="menu" class="menu">
+                        <li class="link-one link">
+                            <a class="header-link-text-one" href="#lodging-container">Hébergements</a>
+                        </li>
+                        <li class="link-two link">
+                            <a class="header-link-text-two" href="#activities">Activités</a>
+                        </li>
+                    </ul>
+                    <!-- header right end -->
+
+                </nav>
+                <!-- navigation end -->
+
+            </header>
+            <!-- header end -->
+
+            <!-- main start -->
+			<!-- ========== -->
+            <main class="main container">
+
+                <!-- search container start -->
+                <!-- ======================= -->
+                <section class="search-container">
+
+                    <!-- title -->
+                    <h1 class="title">Trouvez votre hébergement pour des vacances de rêve</h1>
+
+                    <!-- subtitle -->
+                    <p class="subtitle">En plein centre ville ou en pleinne nature</p>
+
+                    <!-- form start -->
+                    <!-- ========== -->
+                    <form id="search-form" class="search-form" name="search-form">
+                        <i class="icon-location fa-solid fa-location-dot"></i>
+                        <input class="search-input" type="text" value="Marseille, France" />
+                        <input class="search-submit" type="submit" value="Rechercher" />
+                        <i class="icon-search fa-solid fa-magnifying-glass"></i>
+                    </form>
+                    <!-- form end -->
+
+                    <!-- filters start -->
+                    <!-- ============= -->
+                    <div id="search-filters" class="search-filters">
+                        <label class="lab-filters">Filtres</label>
+                        <ul id="filters" class="filters">
+                            <li class="eco-filter filter">
+                                <i class="icon-filter icon-eco fa-solid fa-money-bill-wave"></i> 
+                                Économique
+                            </li>
+                            <li class="fam-filter filter">
+                                <i class="icon-filter icon-fam fa-solid fa-child-reaching"></i> 
+                                Familial
+                            </li>
+                            <li class="rom-filter filter">
+                                <i class="icon-filter icon-rom fa-solid fa-heart"></i> 
+                                Romantique
+                            </li>
+                            <li class="ani-filter filter">
+                                <i class="icon-filter icon-ani fa-solid fa-dog"></i> 
+                                Animaux autorisés
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- filters end -->
+
+                    <i class="icon-info fa-solid fa-info"></i>
+                    <p class="info">Plus de 500 logements sont disponibles dans cette ville</p>
+
+                </section>
+                <!-- search container end -->
+
+                <!-- catalog container start -->
+                <!-- ======================= -->
+                <div class="catalog-container">
+
+                    <!-- lodging container start -->
+                    <!-- ======================= -->
+                    <section id="lodging-container" class="lodging-container center-contenair">
+
+                        <!-- title -->
+                        <h1 class="catalog-title">Hébergements à Marseille</h1>
+
+                        <!-- lodging box one start -->
+                        <!-- ===================== -->
+                        <a class="lodging" href="#">
+                            <!-- picture -->
+                            <div class="lodging-wrap wrap">
+                                <img class="img-lodging img-auberges-la-cannebiere" 
+                                    src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" 
+                                    alt="photo d'un lit superposé dans une petite chambre bien éclairée par le soleil">
+                            </div>
+                            <!-- lodging name -->
+                            <h2 class="lodging-subtitle">Auberge la Cannebière</h2> 
+                            <!-- price -->
+                            <h3 class="lodging-info">Nuit à partir de <strong>25€</strong></h3>
+
+                            <!-- star box start -->
+                            <!-- ============== -->
+                            <ul class="star-lodging star-container">
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-gray star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>       
+                            </ul>
+                            <!-- star box end -->
+                        </a>
+                        <!-- lodging box one end -->
+
+                        <!-- lodging box two start -->
+                        <!-- ===================== -->
+                        <a class="lodging" href="#">
+                            <!-- picture -->
+                            <div class="lodging-wrap wrap">
+                                <img class="img-lodging img-hotel-du-port" 
+                                    src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" 
+                                    alt="photo de deux lits dont un d'une place et l'autre de deux places, 
+                                    dans une chambre aux teintes blanche et pastel bien éclairée au jour">
+                            </div>
+                            <h2 class="lodging-subtitle">Hôtel du port</h2> 
+                            <h3 class="lodging-info">Nuit à partir de 52€</h3>
+
+                            <!-- star box start -->
+                            <!-- ============== -->
+                            <ul class="star-lodging star-container">
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>       
+                            </ul>
+                            <!-- star box end -->
+                        </a>
+                        <!-- lodging box two end -->
+
+                        <!-- lodging box three start -->
+                        <!-- ======================= -->
+                        <a class="lodging" href="#">
+                            <!-- picture -->
+                            <div class="lodging-wrap wrap">
+                                <img class="img-lodging img-hotel-les-mouettes" 
+                                    src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" 
+                                    alt="photo d'un grand lit et rengement type penderie dans une chambre
+                                    crème et beige">
+                            </div>
+                            <!-- lodging name -->
+                            <h2 class="lodging-subtitle">Hôtel Les mouettes</h2> 
+                            <!-- price -->
+                            <h3 class="lodging-info">Nuit à partir de 76€</h3>
+
+                            <!-- star box start -->
+                            <!-- ============== -->
+                            <ul class="star-lodging star-container">
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-gray star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>       
+                            </ul>
+                            <!-- star box end -->
+                        </a>
+                        <!-- lodging box three end -->
+
+                        <!-- lodging box four start -->
+                        <!-- ====================== -->
+                        <a class="lodging" href="#">
+                            <!-- picture -->
+                            <div class="lodging-wrap wrap">
+                            <img class="img-lodging img-hotel-de-la-mer" 
+                                src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" 
+                                alt="photo d'un lit double dans une chambre chaleureuse au thème de la mer,
+                                avec nuances de couleurs bleu et sable, une grand tableau de vagues contre rochers
+                                ornant le lit">
+                            </div>
+                            <!-- lodging name -->
+                            <h2 class="lodging-subtitle">Hôtel de la mer</h2> 
+                            <!-- price -->
+                            <h3 class="lodging-info">Nuit à partir de 46€</h3>
+
+                            <!-- star box start -->
+                            <!-- ============== -->
+                            <ul class="star-lodging star-container">
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-gray star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-gray star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>       
+                            </ul>
+                            <!-- star box end -->
+                        </a>
+                        <!-- lodging box four end -->
+
+                        <!-- lodging box five start -->
+                        <!-- ====================== -->
+                        <a class="lodging" href="#">
+                            <!-- picture -->
+                            <div class="lodging-wrap wrap">
+                                <img class="img-lodging img-auberge-le-panier"  
+                                    src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" 
+                                    alt="photo de deux lit superposé en bois dans une chambre aux teintes naturelles">
+                            </div>
+                            <!-- lodging name -->
+                            <h2 class="lodging-subtitle">Auberge Le Panier</h2>
+                            <!-- price --> 
+                            <h3 class="lodging-info">Nuit à partir de <strong>23€</strong></h3>
+
+                            <!-- star box start -->
+                            <!-- ============== -->
+                            <ul class="star-lodging star-container">
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-gray star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>       
+                            </ul>
+                            <!-- star box end -->
+                        </a>
+                        <!-- lodging box five end -->
+
+                        <!-- lodging box six start -->
+                        <!-- ====================== -->
+                        <a class="lodging" href="#">
+                            <!-- picture -->
+                            <div class="lodging-wrap wrap">
+                                <img class="img-lodging img-hotel-chez-amina"  
+                                    src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" 
+                                    alt="photo de deux lits d'une place dans un cadre lumineux et chaleureux 
+                                    avec petit bureau d'appoint">
+                            </div>
+                            <!-- lodging name -->
+                            <h2 class="lodging-subtitle">Hôtel chez Amina</h2> 
+                            <!-- price --> 
+                            <h3 class="lodging-info">Nuit à partir de 96€</h3>
+
+                            <!-- star box start -->
+                            <!-- ============== -->
+                            <ul class="star-lodging star-container">
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>       
+                            </ul>
+                            <!-- star box end -->
+                        </a>
+                        <!-- lodging box six end -->
+
+                        <a class="learn-more-link" href="#">Afficher plus</a>
+
+                    </section>
+                    <!-- lodging container end -->
+
+                    <!-- most famous container start -->
+                    <!-- =========================== -->
+                    <aside class="most-famous-container center-contenair">
+                        <!-- title -->
+                        <h1 class="catalog-title"> Les plus populaires
+                            <i class="star-most-famous fa-solid fa-star"></i>
+                        </h1>
+
+                        <!-- most famous box one start -->
+                        <!-- ========================= -->
+                        <a class="most-famous" href="#">
+                            <!-- picture -->
+                            <div class="most-famous-wrap wrap">
+                                <img class="img-hotel-le-soleil-du-matin img-most-famous"  
+                                    src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" 
+                                    alt="photo d'un lit double dans un cadre idyllique aux teintes vert et bronze">
+                            </div>
+                            <!-- lodging name -->
+                            <h2 class="most-famous-subtitle">Hôtel Le soleil du<br>matin</h2>
+                            <!-- price -->  
+                            <h3 class="most-famous-info">Nuit à partir de 128€</h3>
+
+                            <!-- star box start -->
+                            <!-- ============== -->
+                            <ul class="star-famous star-container">
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>       
+                            </ul>
+                            <!-- star box end -->
+                        </a>
+                        <!-- most famous box one end -->
+
+                        <!-- most famous box two start -->
+                        <!-- ========================= -->
+                        <a class="most-famous" href="#">
+                            <!-- picture -->
+                            <div class="most-famous-wrap wrap">
+                                <img class="img-au-coeur-de-l-eau img-most-famous" 
+                                    src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" 
+                                    alt="photo d'un grand lit double avec tête de lit style capitonné dans un cadre lumineux
+                                    aux couleurs pastels sable et bleu">
+                            </div>
+                            <!-- lodging name -->
+                            <h2 class="most-famous-subtitle">Au cœur de l'eau<br>Chambres d'hôtes</h2> 
+                            <!-- price --> 
+                            <h3 class="most-famous-info">Nuit à partir de 71€</h3>
+
+                            <!-- star box start -->
+                            <!-- ============== -->
+                            <ul class="star-famous star-container">
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-gray star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>       
+                            </ul>
+                            <!-- star box end -->
+                        </a>
+                        <!-- most famous box two end -->
+
+                        <!-- most famous box three start -->
+                        <!-- =========================== -->
+                        <a class="most-famous" href="#">
+                            <!-- picture -->
+                            <div class="most-famous-wrap wrap">
+                                <img class="img-hotel-tout-bleu-et-blanc img-most-famous" 
+                                    src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" 
+                                    alt="photo d'un lit double avec tête de lit et chevets éclairés en bois,
+                                    planché en bois, cadre sobre et agréable">
+                            </div>
+                            <!-- lodging name -->
+                            <h2 class="most-famous-subtitle">Hôtel Tout bleu et<br>Blanc</h2> 
+                            <!-- price -->
+                            <h3 class="most-famous-info">Nuit à partir de 68€</h3>
+
+                            <!-- star box start -->
+                            <!-- ============== -->
+                            <ul class="star-famous star-container">
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-blue star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li class="star-gray star">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>       
+                            </ul>
+                            <!-- star box end -->
+                        </a>
+                        <!-- most famous box three end -->
+
+                    </aside> 
+                    <!-- most famous container end -->   
+
+                    <!-- activities start -->
+                    <!-- ================ -->
+                    <section id="activities" class="activities-contenair center-contenair">
+                        <!-- title -->
+                        <h1 class="activities-title">Activités à Marseille</h1>
+
+                        <!-- container vieux port start -->
+                        <!-- ========================== -->
+                        <div class="activities-box">
+                            <a class="vieux-port-wrap all-wrap wrap" href="#">
+                                <!-- picture -->
+                                <div class="img-vieux-port-wrap img-wrap">
+                                    <img class="img-vieux-port"
+                                        src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" 
+                                        alt="photo du Vieux Port de Marseille: plusieurs petits bateaux amarrés 
+                                        de part et d'autre du ponton, des habitations dominés par une basilique en second plan">
+                                    <img class="img-vieux-port-medium img-activities-w-595"
+                                        src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" 
+                                        alt="photo du Vieux Port de Marseille: plusieurs petits bateaux amarrés 
+                                        de part et d'autre du ponton, des habitations dominés par une basilique en second plan">
+                                </div>
+                                <!-- place name-->
+                                <h2 class="place-title">Vieux Port</h2> 
+                            </a>
+                        </div>
+                        <!-- container vieux port end -->
+
+                        <!-- container fort de pomegues and iles du frioul start -->
+                        <!-- =================================================== -->
+                        <div class="activities-box">
+                            <a class="fort-de-pomegues-wrap all-wrap wrap" href="#">
+                                <!-- picture -->
+                                <div class="img-fort-de-pomegues-wrap img-wrap">
+                                    <img class="img-fort-de-pomegues img-activities-w-425"
+                                        src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" 
+                                        alt="photo du Fort de Pomègues: prise de vue contre plongé du bas vers le haut,
+                                        c'est une petite coline de roche beige ornée du Fort">
+                                    <img class="img-fort-de-pomegues-medium img-activities-w-595"
+                                        src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" 
+                                        alt="photo de vue panoramique de l'île de Frioul, jolie digue en premier plan">
+                                </div>
+                                <!-- place name-->
+                                <h2 class="place-title">Fort de Pomègues</h2> 
+                            </a>
+                            <a class="iles-du-frioul-wrap all-wrap wrap" href="#">
+                                <!-- picture -->
+                                <div class="img-iles-du-frioul-wrap img-wrap">
+                                    <img class="img-iles-du-frioul img-activities-w-425"
+                                        src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" 
+                                        alt="photo de vue panoramique de l'île de Frioul, jolie digue en premier plan">
+                                    <img class="img-iles-du-frioul-medium img-activities-w-595"
+                                        src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" 
+                                        alt="photo de vue panoramique de l'île de Frioul, jolie digue en premier plan">
+                                </div>
+                                <!-- place name-->
+                                <h2 class="place-title">îles du Frioul</h2> 
+                            </a>
+                        </div>
+                        <!-- container fort de pomegues and iles du frioul end -->
+
+                        <!-- container parc national des calanques start -->
+                        <!-- =========================================== -->
+                        <div class="activities-box">
+                            <a class="parc-national-des-calanques-wrap all-wrap wrap" href="#">
+                                <!-- picture -->
+                                <div class="img-parc-national-des-calanques-wrap img-wrap">
+                                    <img class="img-parc-national-des-calanques"
+                                        src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" 
+                                        alt="photo du Parc National des Calanques dont roches et mousses verdoyantes
+                                        offrent une vue sur un horizon bleu pastel où se melle ciel et mer">
+                                </div>
+                                <!-- place name-->
+                                <h2 class="place-title">Parc National des Calanques</h2> 
+                            </a>
+                        </div>
+                        <!-- container parc national des calanques end -->
+
+                        <!-- container notre dame de la garde and parc longchamp start -->
+                        <!-- ========================================================= -->
+                        <div class="activities-box activites-last-box">
+                            <a class="notre-dame-de-la-garde-wrap all-wrap wrap" href="#">
+                                <!-- picture -->
+                                <div class="img-notre-dame-de-la-garde-wrap img-wrap">
+                                    <img class="img-notre-dame-de-la-garde img-activities-w-425"
+                                        src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" 
+                                        alt="photo de Notre Dame de la Garde: vue d'ensemble sur plusieurs habitations, 
+                                        du relief sur un paysage à ton chaleureux et petite coline surlaquelle se dresse 
+                                        la basilique Notre Dame de la Garde">
+                                    <img class="img-notre-dame-de-la-garde-medium img-activities-w-595"
+                                        src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" 
+                                        alt="photo de Notre Dame de la Garde: vue d'ensemble sur plusieurs habitations, 
+                                        du relief sur un paysage à ton chaleureux et petite coline surlaquelle se dresse 
+                                        la basilique Notre Dame de la Garde">
+                                </div>
+                                <!-- place name-->
+                                <h2 class="place-title">Notre-Dame-de-la-Garde</h2> 
+                            </a>
+                            <a class="parc-longchamp-wrap all-wrap wrap" href="#">
+                                <!-- picture -->
+                                <div class="img-parc-longchamp-wrap img-wrap">
+                                    <img class="img-parc-longchamp img-activities-w-425"
+                                        src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" 
+                                        alt="photo du Parc Longchamps: fontaine idyllique et chef d'oeuvre architectural">
+                                    <img class="img-parc-longchamp-medium img-activities-w-595"
+                                        src="images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" 
+                                        alt="photo du Parc Longchamps: fontaine idyllique et chef d'oeuvre architectural">
+                                </div>
+                                <!-- place name-->
+                                <h2 class="place-title">Parc Longchamp</h2> 
+                            </a>
+                        </div>
+                        <!-- container notre dame de la garde and parc longchamp end -->
+                    </section>
+                    <!-- activities end -->
+                </div>
+                <!-- catalog container end -->
+            </main>
+            <!-- main end -->
+
+            <!-- footer start -->
+			<!-- ============ -->
+            <footer class="footer container">
+
+                <!-- menu one start -->
+			    <!-- ============== -->
+                <ul class="about-one about">
+                    <!-- title -->
+                    <li>
+                        <h4 class="about-title">A propos</h4>
+                    </li>
+                    <!-- link -->
+                    <li>
+                        <a class="about-text" href="#">Fonctionnement du site</a>
+                    </li> 
+                    <!-- link -->
+                    <li>
+                        <a class="about-text" href="#">Conditions générales de vente</a>
+                    </li>
+                    <!-- link --> 
+                    <li>
+                        <a class="about-text" href="#">Données et confidentialité</a> 
+                    </li>
+                </ul>
+                <!-- menu one end -->
+
+                <!-- menu two start -->
+			    <!-- ============== -->
+                <ul class="about-two about">
+                    <!-- title -->
+                    <li>
+                        <h4 class="about-title">Nos hébergements</h4>
+                    </li>
+                    <!-- link -->
+                    <li>
+                        <a class="about-text" href="#">Charte qualité</a> 
+                    </li>
+                    <!-- link -->
+                    <li>
+                        <a class="about-text" href="#">Soumettre votre hôtel</a>
+                    </li> 
+                </ul>
+                <!-- menu two end -->
+			    
+                <!-- menu three start -->
+			    <!-- ================ -->
+                <ul class="about-three about">
+                    <!-- title -->
+                    <li>
+                        <h4 class="about-title">Assistance</h4>
+                    </li>
+                    <!-- link -->
+                    <li>
+                        <a class="about-text" href="#">Centre d'aide</a>
+                    </li>
+                    <!-- link -->
+                    <li> 
+                        <a class="about-text" href="#">Nous contacter</a> 
+                    </li>
+                </ul>
+                <!-- menu three end -->
+
+            </footer>
+            <!-- footer end -->
+        </div>
+        <!-- fram end -->
+
+    </body>

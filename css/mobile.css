@@ -1,0 +1,339 @@
+/************************************* media queries *****************************************/
+/************************* New rules if the screen is at least 767px *************************/
+@media screen and (max-width: 767px){
+
+    /**********************************************************************************************/
+    /******************************************** header ******************************************/
+    /**********************************************************************************************/
+    .logo-big{
+        top: 21px;
+        left: 0;
+        right: 0;
+        padding: 0;
+	    margin: 0 auto;
+        z-index: 100;
+    }
+    .menu{ 
+        left: 0;
+        max-width: 787px;
+        width: 100%;
+        height: 131px;
+        background-color: white;
+        z-index: 40;
+    }
+    .link{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        height: 131px;
+    }
+    .link-one{
+        border-top: none;
+        border-bottom: solid 2px #0065fc;
+    }
+    .link-two{
+        right: 0;
+        border-bottom: solid 2px #F2F2F2;
+    }
+    .header-link-text-one{
+        position: relative;
+        top: 97px;
+        margin: 0;
+    }
+    .header-link-text-two{
+        position: relative;
+        top: 98px;
+        margin-left: -5px;
+        letter-spacing: 0.4px;
+    }
+
+    /**********************************************************************************************/
+    /********************************************* main *******************************************/
+    /**********************************************************************************************/
+    main{
+        height: 3950px;
+    }
+
+    /************************************** search container *************************************/
+    /**********************************************************************************************/
+    .search-container{
+        top: 17px;
+        height: 314px;
+        max-width: 393px;
+        width: 100%;
+    }
+    .title, 
+    .subtitle{
+        position: relative;
+        top: 19px;
+        left: 20px;
+        margin-right: 54px;
+    }
+    .search-form{
+        position: relative;
+        top: 39px;
+        left: 20px;
+        width: 335px;
+        height: 50px;
+        z-index: 2;
+    }
+    .search-submit{
+        display: none;
+    }
+    .icon-search{
+        display: block;
+        text-align: center;
+        padding-top: 15px;
+        top: 0;
+        float: right;
+        width: 53px;
+        height: 50px;
+        border-radius: 14px;
+        background-color: #0065fc;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .search-input{
+        width: 240px;
+        z-index: -1;
+    }
+    .search-filters{
+        top: 58px;
+        left: 20px;
+        padding-left: 0px;
+        z-index: 100;
+    }
+    .filters{
+        left: 0;
+        top: 52px;
+        width: 329px;
+        height: 185px;
+    }
+    .filter{
+        font-size: 16px;
+    }
+    .eco-filter{
+        width: 175px;
+    }
+    .fam-filter{
+        width: 142px;
+    }
+    .rom-filter{
+        width: 170px;
+    }
+    .ani-filter{
+        width: 220px;
+    }
+    .icon-info{
+        left: 20px;
+        top: 267px;
+    }
+    .info{
+        left: 55px;
+        margin-top: 218px; 
+        margin-right: 50px;
+    }
+
+    /************************************** catalog container *************************************/
+    /**********************************************************************************************/
+    .center-contenair{
+        margin-right: auto;
+        margin-left: auto;
+        left: 0;
+        right: 0;
+    }
+    .catalog-container{
+        margin-top: 256px;
+    }
+    .catalog-title{
+        left: 20px;
+    }
+
+    /*************************************** most famous ******************************************/
+    /**********************************************************************************************/
+    .most-famous-container{
+        top: 0;
+        right: 0;
+        padding-left: 0;
+        padding-top: 27px;
+        border-radius: 0;
+        max-width: 767px;
+        width: 100%;
+        height: 580px;
+        background-color: #F2F2F2;
+    } 
+    .most-famous{
+        left: 20px;
+        margin-left: 0;
+        margin-bottom: 11px;
+        width: 333px;
+    }
+    .star-most-famous{
+        position: absolute;
+        left: 311px;
+        font-size: 20px;
+    }
+
+    /************************************** lodging container *************************************/
+    /**********************************************************************************************/
+    .lodging-container{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 579px;
+        left: 0;
+        padding-left: 0;
+        padding-top: 27px;
+        border-radius: 0;
+        max-width: 767px;
+        width: 100%;
+        height: 1421px;
+        background-color: white;
+    }
+    .lodging{
+        top: 58px;
+        left: 20px;
+        margin-left: 0;
+        margin-bottom: 13px;
+        width: 333px;
+    }
+    .lodging-wrap{
+        width: 325px;
+    }
+    .img-lodging{
+        width: 330px;
+    }
+    .img-auberges-la-cannebiere{
+        top: -52px;
+        left: 0;
+    }
+    .img-hotel-du-port{
+        top: -52px;
+        left: -3px;
+    }
+    .img-hotel-les-mouettes{
+        top: -53px;
+        left: -2px;
+    }
+    .img-hotel-de-la-mer{
+        top: -98px;
+        left: -2px;
+    }
+    .img-auberge-le-panier{
+        top: -35px;
+        left: -2px;
+    }
+    .img-hotel-chez-amina{
+        top: -191px;
+        left: -2px;
+    }
+    .activities-contenair{
+        display: none;
+    }   
+    .learn-more-link, 
+    .learn-more-link:hover{
+        top: 77px;
+        left: 20px;
+    }
+
+    /*************************************** activities *******************************************/
+    /**********************************************************************************************/
+    .activities-contenair{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 2027px;
+        left: 0;
+        padding-left: 0;
+        border-radius: 0;
+        max-width: 767px;
+        width: 100%;
+        height: 0;
+    }
+    .activities-title{
+        top: -5px;
+        left: 22px;
+        margin-top: 0;
+    }
+    .activities-box{
+        flex-direction: column;
+        flex-wrap:wrap;
+        left: 20px;
+        top: 50px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 333px;
+        margin-bottom: 24px;
+    }
+    .all-wrap{
+        top: 0;
+        left: 0;
+        width: 333px;
+        height: 190px;
+    }
+    .iles-du-frioul-wrap,
+    .parc-longchamp-wrap{
+        margin-top: 21px;
+    }
+    .img-wrap{
+        top: 0;
+        bottom: 57px;
+        width: 340px;
+        height: auto;
+    }
+    .img-vieux-port{
+        top: -16px;
+        left: 0;
+        width: 333px;
+        height: auto;
+    }
+    .img-fort-de-pomegues{
+        top: -155px;
+        width: 333px
+    }
+    .img-iles-du-frioul{
+        width: 333px
+    }
+    .img-parc-national-des-calanques{
+        top: -20px;
+        width: 333px;
+        height: auto;
+        left: 0;
+    }
+    .img-notre-dame-de-la-garde{
+        top: -16px;
+        width: 333px;
+    }
+    .img-parc-longchamp{
+        top: -30px;
+        width: 333px;
+    }
+
+    /**********************************************************************************************/
+    /******************************************** footer ******************************************/
+    /**********************************************************************************************/
+    .footer{
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 486px;
+    }
+    .about{
+        top: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        max-width: 1440px;
+        width: 100%;
+        padding-left: 30px;
+        background-color: #F2F2F2;
+    }
+    .about-one{
+        height: 164px;
+    }
+    .about-two{
+        height: 142px;
+    }
+    .about-three{
+        height: 180px;
+    }
+}

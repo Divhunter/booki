@@ -1,0 +1,166 @@
+/*********************************************** media queries ***********************************************/
+/************************* New rules if the screen is at more 992px and least 1350px *************************/
+@media screen and (min-width: 992px) and (max-width: 1350px){
+
+    /**********************************************************************************************/
+    /********************************************* main *******************************************/
+    /**********************************************************************************************/
+    main{
+        height: 2490px;
+    }
+
+    /************************************** search container *************************************/
+    /**********************************************************************************************/
+    .filters{
+        top: 52px;
+        left: 0;
+        margin-right: 0;
+        width: 800px;
+    }
+    .filter{
+        font-size: 16px;
+    }
+    .eco-filter{
+        width: 185px;
+    }
+    .fam-filter{
+        width: 142px;
+    }
+    .rom-filter{
+        width: 174px;
+    }
+    .ani-filter{
+        width: 232px;
+    }
+    .icon-info{
+        top: 117px;
+    }
+    .info{
+        margin-top: 70px; 
+    }
+
+    /************************************** catalog container *************************************/
+    /**********************************************************************************************/
+    .center-contenair{
+        margin-right: auto;
+        margin-left: auto;
+        left: 0;
+        right: 0;
+    }
+    .catalog-container{
+        margin-top: 55px;
+    }
+    .catalog-title{
+        margin-left: 11px;
+    }
+
+    /************************************** lodging container *************************************/
+    /**********************************************************************************************/
+    .lodging-container{
+        padding-left: 17px;
+        width: 895px;
+    }
+    .lodging{
+        margin-left: 32px;
+    }
+    .learn-more-link{
+        margin-left: -5px;
+    }
+
+    /*************************************** most famous ******************************************/
+    /**********************************************************************************************/
+	.most-famous-container{
+        position: relative;
+        top: 650px;
+        flex-direction: row;
+        padding-left: 17px;
+        width: 895px;
+        height: 370px;
+    }
+    .star-most-famous{
+        margin-left: 20px;
+    }
+    .most-famous{
+        margin-left: 32px;
+        margin-bottom: -90px;
+        width: 245px;
+        height: 216px;
+    }
+    .most-famous-subtitle{
+        top: 114px;
+        left: 15px; 
+    }
+    .most-famous-info{
+        top: 155px;
+        left: 15px;
+    }
+    .star-famous{
+        top: 181px;
+        left: 15px;
+    }
+    .most-famous-wrap{
+        width: 237px;
+        height: 114px;
+        border-radius: 16px 16px 0 0;
+    }
+    .img-most-famous{
+        width: 237px;
+        left: 0;
+    }
+    .img-hotel-le-soleil-du-matin{
+        top: -20px;
+    }
+    .img-hotel-tout-bleu-et-blanc{
+        top: -140px;
+    }
+
+    /*************************************** activities *******************************************/
+    /**********************************************************************************************/
+    .activities-contenair{
+        flex-direction: column;
+        flex-wrap: wrap;
+        top: 650px;
+        height: 1050px;
+        width: 992px;
+        padding-left: 54px;
+    }
+    .activities-title{
+        margin-left: -5px;
+    }
+    .activities-box{
+        width: 425px;
+        height: 446px;
+    }
+    .all-wrap{
+        width: 425px;
+    }
+    .fort-de-pomegues-wrap,
+    .notre-dame-de-la-garde-wrap,
+    .iles-du-frioul-wrap,
+    .parc-longchamp-wrap{
+        top: 41px;
+    }
+    .img-wrap,
+    .img-activities-w-425{
+        width: 425px;
+    }
+    .img-fort-de-pomegues-medium{
+        display: block;
+        position: absolute;
+        left: -140px;
+        top: -460px;
+        height: auto;
+    }
+    .img-fort-de-pomegues{
+        display: none;
+    }
+    .img-iles-du-frioul{
+        top: -70px;
+    }
+    .img-notre-dame-de-la-garde{
+        top: -20px;
+    }
+    .img-parc-longchamp{
+        top: -60px;
+    }   
+}
